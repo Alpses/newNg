@@ -1,0 +1,10 @@
+p{
+    border:1px solid #666;
+    
+}
+p button{
+    margin-left: 12px;
+}
+p span{
+    color:red;
+}

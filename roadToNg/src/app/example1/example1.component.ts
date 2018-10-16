@@ -7,7 +7,7 @@ import { Component, OnInit , ViewEncapsulation} from '@angular/core';
   encapsulation:ViewEncapsulation.Emulated // None | Emulated | Native
 })
 export class Example1Component implements OnInit {
-
+  initialCount: number = 5;
   constructor() { }
 
   ngOnInit() {

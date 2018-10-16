@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { StartComponent } from './start/start.component';
 import { MenuComponent } from './menu/menu.component';
 import { Example1Component } from './example1/example1.component';
+import { Example1ChildComponent } from './example1-child/example1-child.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     StartComponent,
     MenuComponent,
-    Example1Component
+    Example1Component,
+    Example1ChildComponent
   ],
   imports: [
     BrowserModule,
