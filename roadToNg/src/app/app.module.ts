@@ -11,6 +11,10 @@ import { Example1ChildComponent } from './example1-child/example1-child.componen
 import { Example2Component } from './example2/example2.component';
 import { Example2ChildComponent } from './example2-child/example2-child.component';
 import { Example3Component } from './example3/example3.component';
+import { Example3ChildComponent } from './example3-child/example3-child.component';
+import { Example4Component } from './example4/example4.component';
+import { Example4SimplePaginationComponent } from './example4-simple-pagination/example4-simple-pagination.component';
+import { OrdinalPipe } from './ordinal.pipe';
 
 @NgModule({
   declarations: [
@@ -21,7 +25,11 @@ import { Example3Component } from './example3/example3.component';
     Example1ChildComponent,
     Example2Component,
     Example2ChildComponent,
-    Example3Component
+    Example3Component,
+    Example3ChildComponent,
+    Example4Component,
+    Example4SimplePaginationComponent,
+    OrdinalPipe
   ],
   imports: [
     BrowserModule,
