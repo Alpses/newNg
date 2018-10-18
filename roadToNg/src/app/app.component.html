@@ -7,7 +7,7 @@
 </div>
 <ul>
   <ol *ngFor="let road of roads">
-    <a routerLink="">{{road.desc ? road.desc:road.name }}</a>
+    <a routerLink="{{road.roadto}}">{{road.desc ? road.desc:road.name }}</a>
   </ol>
 </ul>
 

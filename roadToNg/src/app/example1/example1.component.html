@@ -15,5 +15,15 @@
 </pre>
 
 <div>
-  <exe-counter [count]="initialCount"></exe-counter>
+  <!-- <exe-counter [count]="initialCount"></exe-counter> -->
+</div>
+<hr>
+
+<div  style="border:1px solid yellow;">Parent：
+  <span style="color:#999;">Attention:父指令通过事件绑定 (eventName) 的方式监听该事件，并通过 $event 对象来获取 payload 对象</span>
+
+  <p>MSG:  {{changeMsg}}
+      <exe-counter [val]="initialCalculate" 
+       (change)="calculateChange($event)"></exe-counter>
+   </p> 
 </div>

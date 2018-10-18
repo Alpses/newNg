@@ -8,6 +8,13 @@ import { Component, OnInit , ViewEncapsulation} from '@angular/core';
 })
 export class Example1Component implements OnInit {
   initialCount: number = 5;
+
+  initialCalculate: number = 15;
+  changeMsg: string;
+  calculateChange(event: number) {
+    this.changeMsg = `子组件change事件已触发，当前值是: ${event}`;
+  }
+
   constructor() { }
 
   ngOnInit() {

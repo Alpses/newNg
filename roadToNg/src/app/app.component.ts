@@ -13,8 +13,11 @@ export class AppComponent {
   private roads : Course[] ;
   constructor() { 
     this.roads=[
-      {id:1,name:'component01',desc:'Angular ViewEncapsulation Modes'},
-      {id:2,name:'component02',}
+      {id:1,name:'component00',desc:'Angular ViewEncapsulation Modes',roadto:''},
+      {id:2,name:'component01',desc:'',roadto:'/example1'},
+      {id:3,name:'component02',desc:'',roadto:'/example2'},
+      {id:4,name:'component03',desc:'',roadto:'/example3'},
+      {id:5,name:'component04',desc:'',roadto:'/example4'}
     ]
   }
 

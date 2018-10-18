@@ -8,6 +8,9 @@ import { StartComponent } from './start/start.component';
 import { MenuComponent } from './menu/menu.component';
 import { Example1Component } from './example1/example1.component';
 import { Example1ChildComponent } from './example1-child/example1-child.component';
+import { Example2Component } from './example2/example2.component';
+import { Example2ChildComponent } from './example2-child/example2-child.component';
+import { Example3Component } from './example3/example3.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { Example1ChildComponent } from './example1-child/example1-child.componen
     StartComponent,
     MenuComponent,
     Example1Component,
-    Example1ChildComponent
+    Example1ChildComponent,
+    Example2Component,
+    Example2ChildComponent,
+    Example3Component
   ],
   imports: [
     BrowserModule,
